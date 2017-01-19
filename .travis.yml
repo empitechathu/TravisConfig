@@ -2,9 +2,8 @@ language: objective-c
 osx_image: xcode7.3
 xcode_project: ./ios/TravisConfig.xcodeproj
 
-before_install:
+sciprt:
     - brew update
     - brew reinstall xctool
     - brew reinstall watchman
     - npm install
-    
