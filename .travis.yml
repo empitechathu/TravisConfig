@@ -1,6 +1,10 @@
 language: objective-c
 osx_image: xcode7.3
-xcode_project: TravisConfig.xcodeproj
+xcode_project: ./ios/TravisConfig.xcodeproj
+
+before_install:
+    - brew update
+    - brew install xctool
 
 install:
 - npm install
