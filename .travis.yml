@@ -4,7 +4,6 @@ xcode_project: ./ios/TravisConfig.xcodeproj
 
 before_install:
     - brew update
-    #- brew install xctool
     - brew outdated xctool || brew upgrade xctool
 
 install:
